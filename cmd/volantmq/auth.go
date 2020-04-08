@@ -23,7 +23,7 @@ func (a *simpleAuth) addUser(u, p string) {
 	a.creds[u] = p
 }
 
-func (a *simpleAuth) Password(clientID, user, password string) error {
+func (a *simpleAuth) Password(_, user, password string) error {
 	if hash, ok := a.creds[user]; ok {
 		algo := sha256.New()
 		if _, err := algo.Write([]byte(password)); err == nil {
@@ -35,7 +35,7 @@ func (a *simpleAuth) Password(clientID, user, password string) error {
 	return vlauth.StatusDeny
 }
 
-func (a *simpleAuth) ACL(clientID, user, topic string, access vlauth.AccessType) error {
+func (a *simpleAuth) ACL(_, _, _ string, _ vlauth.AccessType) error {
 	return vlauth.StatusAllow
 }
 
