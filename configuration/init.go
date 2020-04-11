@@ -39,6 +39,7 @@ func init() {
 	logCfg.EncoderConfig.LevelKey = ""
 	logCfg.EncoderConfig.CallerKey = ""
 	logCfg.Encoding = "console"
+	logCfg.EncoderConfig.TimeKey = ""
 	logCfg.EncoderConfig.EncodeTime = nil
 
 	log, _ := logCfg.Build()
