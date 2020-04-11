@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/VolantMQ/volantmq/subscriber"
+	"github.com/zf8848/volantmq/subscriber"
 )
 
 // container wrap session to reduce resource usage when non clean session is disconnected

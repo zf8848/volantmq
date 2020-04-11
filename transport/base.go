@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/auth"
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/zf8848/volantmq/auth"
+	"github.com/zf8848/volantmq/metrics"
+	"github.com/zf8848/volantmq/types"
 )
 
 // Config is base configuration object used by all transports

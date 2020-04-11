@@ -8,10 +8,10 @@ import (
 	"github.com/VolantMQ/vlapi/vltypes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/subscriber"
+	"github.com/zf8848/volantmq/metrics"
+	"github.com/zf8848/volantmq/subscriber"
 
-	topicstypes "github.com/VolantMQ/volantmq/topics/types"
+	topicstypes "github.com/zf8848/volantmq/topics/types"
 )
 
 var config *topicstypes.MemConfig

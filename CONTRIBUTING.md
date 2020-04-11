@@ -2,7 +2,7 @@
 
 ## Reporting Issues
 
-Before creating a new Issue, please check first if a similar Issue [already exists](https://github.com/VolantMQ/volantmq/issues?state=open) or was [recently closed](https://github.com/VolantMQ/volantmq/issues?direction=desc&page=1&sort=updated&state=closed).
+Before creating a new Issue, please check first if a similar Issue [already exists](https://github.com/zf8848/volantmq/issues?state=open) or was [recently closed](https://github.com/zf8848/volantmq/issues?direction=desc&page=1&sort=updated&state=closed).
 
 [Gophers channel](https://gophers.slack.com/messages/C67KYG1RQ/)
 

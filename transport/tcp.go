@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/zf8848/volantmq/metrics"
+	"github.com/zf8848/volantmq/types"
 
-	"github.com/VolantMQ/volantmq/configuration"
+	"github.com/zf8848/volantmq/configuration"
 )
 
 // ConfigTCP configuration of tcp transport

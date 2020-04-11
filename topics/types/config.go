@@ -4,7 +4,7 @@ import (
 	"github.com/VolantMQ/vlapi/mqttp"
 	"github.com/VolantMQ/vlapi/vlpersistence"
 
-	"github.com/VolantMQ/volantmq/metrics"
+	"github.com/zf8848/volantmq/metrics"
 )
 
 // ProviderConfig interface implemented by every backend

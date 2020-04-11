@@ -23,13 +23,13 @@ ENV PATH $VOLANTMQ_WORK_DIR/bin:$PATH
 
 # build server
 RUN \
-       GO111MODULE=off go get -v github.com/VolantMQ/volantmq/cmd/volantmq \
-    && cd $GOPATH/src/github.com/VolantMQ/volantmq/cmd/volantmq \
+       GO111MODULE=off go get -v github.com/zf8848/volantmq/cmd/volantmq \
+    && cd $GOPATH/src/github.com/zf8848/volantmq/cmd/volantmq \
     && GO111MODULE=on go mod tidy \
     && go get github.com/troian/govvv \
     && govvv build $VOLANTMQ_BUILD_FLAGS -o $VOLANTMQ_WORK_DIR/bin/volantmq
 
-RUN cp $GOPATH/src/github.com/VolantMQ/volantmq/tools/print_version.sh /bin
+RUN cp $GOPATH/src/github.com/zf8848/volantmq/tools/print_version.sh /bin
 
 # build debug plugins
 RUN \

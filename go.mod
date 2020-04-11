@@ -1,4 +1,4 @@
-module github.com/VolantMQ/volantmq
+module github.com/zf8848/volantmq
 
 go 1.14
 

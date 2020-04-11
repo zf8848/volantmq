@@ -23,8 +23,8 @@
 package topics
 
 import (
-	"github.com/VolantMQ/volantmq/topics/memlockfree"
-	topicstypes "github.com/VolantMQ/volantmq/topics/types"
+	"github.com/zf8848/volantmq/topics/memlockfree"
+	topicstypes "github.com/zf8848/volantmq/topics/types"
 )
 
 // New topic provider

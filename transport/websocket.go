@@ -10,8 +10,8 @@ import (
 	gws "github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
 
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/metrics"
+	"github.com/zf8848/volantmq/configuration"
+	"github.com/zf8848/volantmq/metrics"
 )
 
 var subProtocolRegexp = regexp.MustCompile(`^mqtt(([vV])(3.1|3.1.1|5.0))?$`)

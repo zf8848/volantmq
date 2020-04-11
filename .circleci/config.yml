@@ -2,7 +2,7 @@ version: 2.1
 docker_job_setup: &docker_job
   docker:
     - image: circleci/golang:1.13.6
-  working_directory: /go/src/github.com/VolantMQ/volantmq
+  working_directory: /go/src/github.com/zf8848/volantmq
 
 attach_workspace: &workspace
   attach_workspace:
