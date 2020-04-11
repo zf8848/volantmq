@@ -39,7 +39,7 @@ plugins:
     persistence:            # plugin type
       - backend: bbolt      # plugin internal name
         config:
-          file: "/usr/lib/volantmq/persistence/data/bbolt.db"
+          file: "/home/zf8848/share/go/volantmq_my/bin/data/bbolt.db"
     auth:                   # plugin type
       - name: internal      # authenticator name, used by listeners
         backend: simpleAuth # authenticator type
